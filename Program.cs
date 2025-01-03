@@ -1,11 +1,21 @@
 using Microsoft.EntityFrameworkCore;
 using WebAppProject.Data;
+using FluentValidation.AspNetCore;
+using WebAppProject.Validation;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Configure DbContext with SQL Server
 builder.Services.AddDbContext<DataContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+
+
+
+
+builder.Services.AddControllers()
+    .AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<PersonValidator>());
+
 
 // Add services to the container.
 

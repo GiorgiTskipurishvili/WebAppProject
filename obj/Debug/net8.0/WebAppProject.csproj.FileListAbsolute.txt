@@ -168,3 +168,5 @@ C:\Users\User\OneDrive\Desktop\WinterWorks\WebAppProject\WebAppProject\obj\Debug
 C:\Users\User\OneDrive\Desktop\WinterWorks\WebAppProject\WebAppProject\obj\Debug\net8.0\WebAppProject.pdb
 C:\Users\User\OneDrive\Desktop\WinterWorks\WebAppProject\WebAppProject\obj\Debug\net8.0\WebAppProject.genruntimeconfig.cache
 C:\Users\User\OneDrive\Desktop\WinterWorks\WebAppProject\WebAppProject\obj\Debug\net8.0\ref\WebAppProject.dll
+C:\Users\User\OneDrive\Desktop\WinterWorks\WebAppProject\WebAppProject\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\User\OneDrive\Desktop\WinterWorks\WebAppProject\WebAppProject\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
